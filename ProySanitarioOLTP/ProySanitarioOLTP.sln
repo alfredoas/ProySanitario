@@ -7,6 +7,8 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ProySanitarioOLTP", "ProySa
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ProySanitarioDW", "..\ProySanitarioDW\ProySanitarioDW.sqlproj", "{FF4A0CFF-EDFC-47FC-879C-9FC55825F7BD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ETL", "ETL", "{2295BA8F-30DF-4FD1-A57A-4E712A38F88C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

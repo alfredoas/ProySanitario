@@ -7,6 +7,6 @@ IdHSM int references HospitalServicioMedico(Id),
 Diagnostico varchar(500),
 Tratamiento varchar(500),
 FechaIngreso datetime,
-NroHabitación int,
+NroHabitacion int,
 FechaSalida datetime,
 );
