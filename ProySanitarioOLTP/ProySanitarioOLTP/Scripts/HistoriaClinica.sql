@@ -1,15 +1,16 @@
 ﻿
+
 INSERT INTO HistoriaClinica ( IdPaciente, NroSeguroSocial, Fecha, IdHSM, Diagnostico, FechaIngreso, NroHabitacion, FechaSalida) VALUES
 
-(1,  '987654321',  '15-01-2024', 11, 'Fractura tobillo', '16-01-2024', 101, '22-01-2024'),
-(2,  '123456789',  '10-02-2024', 21, 'Infección urinaria', NULL, NULL, NULL),
-(3,  '112233445',  '18-03-2024', 13, 'Dolor torácico', NULL, NULL, NULL),
-(4,  '987654322',  '22-04-2024', 14, 'Neumonía', '23-04-2024', 202, '02-05-2024'),
-(5,  '223344556',  '12-05-2024', 15, 'Hipertensión', NULL, NULL, NULL),
-(6,  '445566778',  '08-06-2024', 16, 'Insuficiencia renal', NULL, NULL, NULL),
-(7,  '554433221',  '11-02-2024', 17, 'Fiebre alta', '12-02-2024', 305, '14-02-2024'),
-(8,  '665544332',  '19-03-2024', 8, 'Erupción cutánea', NULL, NULL, NULL),
-(9,  '776655443',  '28-04-2024', 9, 'Convulsiones', '30-04-2024', 410, '05-05-2024'),
-( 10, '887766554', '13-05-2024', 10, 'Dolor abdominal', NULL, NULL, NULL),
-( 11, '998877665', '21-06-2024', 11, 'Neumonía severa', '22-06-2024', 512, '28-06-2024'),
-( 12, '009988776', '07-07-2024', 12, 'Fractura de brazo', NULL, NULL, NULL);
+(1,  '987654321',  '2024-01-15', 11, 'Fractura tobillo', '2024-01-16', 101, '2024-01-22'),
+(2,  '123456789',  '2024-02-10', 21, 'Infección urinaria', NULL, NULL, NULL),
+(3,  '112233445',  '2024-03-18', 13, 'Dolor torácico', NULL, NULL, NULL),
+(4,  '987654322',  '2024-04-22', 14, 'Neumonía', '2024-04-23', 202, '2024-05-02'),
+(5,  '223344556',  '2024-05-12', 15, 'Hipertensión', NULL, NULL, NULL),
+(6,  '445566778',  '2024-06-08', 16, 'Insuficiencia renal', NULL, NULL, NULL),
+(7,  '554433221',  '2024-02-11', 17, 'Fiebre alta', '2024-02-12', 305, '2024-02-14'),
+(8,  '665544332',  '2024-03-19', 8, 'Erupción cutánea', NULL, NULL, NULL),
+(9,  '776655443',  '2024-04-28', 9, 'Convulsiones', '2024-04-30', 410, '2024-05-05'),
+( 10, '887766554', '2024-05-13', 10, 'Dolor abdominal', NULL, NULL, NULL),
+( 11, '998877665', '2024-06-21', 11, 'Neumonía severa', '2024-06-22', 512, '2024-06-28'),
+( 12, '009988776', '2024-07-07', 12, 'Fractura de brazo', NULL, NULL, NULL);
