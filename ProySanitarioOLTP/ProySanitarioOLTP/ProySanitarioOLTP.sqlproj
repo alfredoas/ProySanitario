@@ -69,6 +69,7 @@
     <Build Include="Schema\Table\HospitalServicioMedico.sql" />
     <Build Include="Schema\Table\Paciente.sql" />
     <Build Include="Schema\Table\HistoriaClinica.sql" />
+    <Build Include="Schema\Table\EstudioComplementario.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Script.PostDeployment.sql" />
@@ -81,5 +82,6 @@
     <None Include="Scripts\Paciente.sql" />
     <None Include="Scripts\Servicio.sql" />
     <None Include="Scripts\Clean.sql" />
+    <None Include="Scripts\EstudioComplementario.sql" />
   </ItemGroup>
 </Project>

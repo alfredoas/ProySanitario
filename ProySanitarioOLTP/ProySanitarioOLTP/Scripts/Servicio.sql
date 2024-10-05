@@ -1,31 +1,29 @@
-﻿
-INSERT INTO Servicio ( Nombre, Acronimo, Descripcion) VALUES
-('Oncología', 'ONC', 'Servicio de oncología'),
-('Neurología', 'NEU', 'Servicio de neurología'),
-('Pediatría', 'PED', 'Servicio de pediatría'),
-('Dermatología', 'DER', 'Servicio de dermatología'),
-('Neumología', 'NE', 'Servicio de neumología'),
-( 'Endocrinología', 'EN', 'Servicio de endocrinología'),
-( 'Nefrología', 'NEF', 'Servicio de nefrología'),
-( 'Geriatría', 'GE', 'Servicio de geriatría'),
-( 'Cirugía General', 'CG', 'Servicio de cirugía general'),
-( 'Anestesiología', 'AN', 'Servicio de anestesiología'),
-( 'Rehabilitación', 'RE', 'Servicio de rehabilitación'),
-( 'Psiquiatría', 'PS', 'Servicio de psiquiatría'),
-( 'Radiología', 'RA', 'Servicio de radiología'),
-( 'Medicina de Urgencias', 'MU', 'Servicio de medicina de urgencias'),
-( 'Otorrinolaringología', 'ORL', 'Servicio de otorrinolaringología'),
-( 'Inmunología', 'IN', 'Servicio de inmunología'),
-( 'Gastroenterología', 'GA', 'Servicio de gastroenterología'),
-( 'Terapia Física', 'TF', 'Servicio de terapia física'),
-( 'Infectología', 'IF', 'Servicio de infectología'),
-( 'Medicina Familiar', 'MF', 'Servicio de medicina familiar'),
-( 'Toxicología', 'TO', 'Servicio de toxicología'),
-( 'Cirugía Plástica', 'CP', 'Servicio de cirugía plástica'),
-( 'Medicina del Deporte', 'MD', 'Servicio de medicina del deporte'),
-( 'Urgencias Pediátricas', 'UP', 'Servicio de urgencias pediátricas'),
-( 'Neurocirugía', 'NC', 'Servicio de neurocirugía'),
-( 'Patología', 'PA', 'Servicio de patología'),
-( 'Genética Médica', 'GM', 'Servicio de genética médica'),
-( 'Cuidados Paliativos', 'CP', 'Servicio de cuidados paliativos'),
-( 'Salud Mental', 'SM', 'Servicio de salud mental');
+﻿INSERT [dbo].[Servicio] ([Id], [Nombre], [Acronimo], [Descripcion], [CostoConsulta], [CostoReconsulta]) VALUES (1, N'Oncología', N'ONC', N'Servicio de oncología', CAST(100.00 AS Decimal(18, 2)), CAST(50.00 AS Decimal(18, 2)))
+INSERT [dbo].[Servicio] ([Id], [Nombre], [Acronimo], [Descripcion], [CostoConsulta], [CostoReconsulta]) VALUES (2, N'Neurología', N'NEU', N'Servicio de neurología', CAST(100.00 AS Decimal(18, 2)), CAST(50.00 AS Decimal(18, 2)))
+INSERT [dbo].[Servicio] ([Id], [Nombre], [Acronimo], [Descripcion], [CostoConsulta], [CostoReconsulta]) VALUES (3, N'Pediatría', N'PED', N'Servicio de pediatría', CAST(100.00 AS Decimal(18, 2)), CAST(50.00 AS Decimal(18, 2)))
+INSERT [dbo].[Servicio] ([Id], [Nombre], [Acronimo], [Descripcion], [CostoConsulta], [CostoReconsulta]) VALUES (4, N'Dermatología', N'DER', N'Servicio de dermatología', CAST(100.00 AS Decimal(18, 2)), CAST(50.00 AS Decimal(18, 2)))
+INSERT [dbo].[Servicio] ([Id], [Nombre], [Acronimo], [Descripcion], [CostoConsulta], [CostoReconsulta]) VALUES (5, N'Neumología', N'NE', N'Servicio de neumología', CAST(100.00 AS Decimal(18, 2)), CAST(50.00 AS Decimal(18, 2)))
+INSERT [dbo].[Servicio] ([Id], [Nombre], [Acronimo], [Descripcion], [CostoConsulta], [CostoReconsulta]) VALUES (6, N'Endocrinología', N'EN', N'Servicio de endocrinología', CAST(100.00 AS Decimal(18, 2)), CAST(50.00 AS Decimal(18, 2)))
+INSERT [dbo].[Servicio] ([Id], [Nombre], [Acronimo], [Descripcion], [CostoConsulta], [CostoReconsulta]) VALUES (7, N'Nefrología', N'NEF', N'Servicio de nefrología', CAST(100.00 AS Decimal(18, 2)), CAST(50.00 AS Decimal(18, 2)))
+INSERT [dbo].[Servicio] ([Id], [Nombre], [Acronimo], [Descripcion], [CostoConsulta], [CostoReconsulta]) VALUES (8, N'Geriatría', N'GE', N'Servicio de geriatría', CAST(100.00 AS Decimal(18, 2)), CAST(50.00 AS Decimal(18, 2)))
+INSERT [dbo].[Servicio] ([Id], [Nombre], [Acronimo], [Descripcion], [CostoConsulta], [CostoReconsulta]) VALUES (9, N'Cirugía General', N'CG', N'Servicio de cirugía general', CAST(100.00 AS Decimal(18, 2)), CAST(50.00 AS Decimal(18, 2)))
+INSERT [dbo].[Servicio] ([Id], [Nombre], [Acronimo], [Descripcion], [CostoConsulta], [CostoReconsulta]) VALUES (10, N'Anestesiología', N'AN', N'Servicio de anestesiología', CAST(100.00 AS Decimal(18, 2)), CAST(50.00 AS Decimal(18, 2)))
+INSERT [dbo].[Servicio] ([Id], [Nombre], [Acronimo], [Descripcion], [CostoConsulta], [CostoReconsulta]) VALUES (11, N'Rehabilitación', N'RE', N'Servicio de rehabilitación', CAST(100.00 AS Decimal(18, 2)), CAST(50.00 AS Decimal(18, 2)))
+INSERT [dbo].[Servicio] ([Id], [Nombre], [Acronimo], [Descripcion], [CostoConsulta], [CostoReconsulta]) VALUES (12, N'Psiquiatría', N'PS', N'Servicio de psiquiatría', CAST(100.00 AS Decimal(18, 2)), CAST(50.00 AS Decimal(18, 2)))
+INSERT [dbo].[Servicio] ([Id], [Nombre], [Acronimo], [Descripcion], [CostoConsulta], [CostoReconsulta]) VALUES (13, N'Radiología', N'RA', N'Servicio de radiología', CAST(100.00 AS Decimal(18, 2)), CAST(50.00 AS Decimal(18, 2)))
+INSERT [dbo].[Servicio] ([Id], [Nombre], [Acronimo], [Descripcion], [CostoConsulta], [CostoReconsulta]) VALUES (14, N'Medicina de Urgencias', N'MU', N'Servicio de medicina de urgencias', CAST(100.00 AS Decimal(18, 2)), CAST(50.00 AS Decimal(18, 2)))
+INSERT [dbo].[Servicio] ([Id], [Nombre], [Acronimo], [Descripcion], [CostoConsulta], [CostoReconsulta]) VALUES (15, N'Otorrinolaringología', N'ORL', N'Servicio de otorrinolaringología', CAST(100.00 AS Decimal(18, 2)), CAST(50.00 AS Decimal(18, 2)))
+INSERT [dbo].[Servicio] ([Id], [Nombre], [Acronimo], [Descripcion], [CostoConsulta], [CostoReconsulta]) VALUES (16, N'Inmunología', N'IN', N'Servicio de inmunología', CAST(100.00 AS Decimal(18, 2)), CAST(50.00 AS Decimal(18, 2)))
+INSERT [dbo].[Servicio] ([Id], [Nombre], [Acronimo], [Descripcion], [CostoConsulta], [CostoReconsulta]) VALUES (17, N'Gastroenterología', N'GA', N'Servicio de gastroenterología', CAST(100.00 AS Decimal(18, 2)), CAST(50.00 AS Decimal(18, 2)))
+INSERT [dbo].[Servicio] ([Id], [Nombre], [Acronimo], [Descripcion], [CostoConsulta], [CostoReconsulta]) VALUES (18, N'Terapia Física', N'TF', N'Servicio de terapia física', CAST(100.00 AS Decimal(18, 2)), CAST(50.00 AS Decimal(18, 2)))
+INSERT [dbo].[Servicio] ([Id], [Nombre], [Acronimo], [Descripcion], [CostoConsulta], [CostoReconsulta]) VALUES (19, N'Infectología', N'IF', N'Servicio de infectología', CAST(100.00 AS Decimal(18, 2)), CAST(50.00 AS Decimal(18, 2)))
+INSERT [dbo].[Servicio] ([Id], [Nombre], [Acronimo], [Descripcion], [CostoConsulta], [CostoReconsulta]) VALUES (20, N'Medicina Familiar', N'MF', N'Servicio de medicina familiar', CAST(100.00 AS Decimal(18, 2)), CAST(50.00 AS Decimal(18, 2)))
+INSERT [dbo].[Servicio] ([Id], [Nombre], [Acronimo], [Descripcion], [CostoConsulta], [CostoReconsulta]) VALUES (21, N'Toxicología', N'TO', N'Servicio de toxicología', CAST(100.00 AS Decimal(18, 2)), CAST(50.00 AS Decimal(18, 2)))
+INSERT [dbo].[Servicio] ([Id], [Nombre], [Acronimo], [Descripcion], [CostoConsulta], [CostoReconsulta]) VALUES (22, N'Cirugía Plástica', N'CP', N'Servicio de cirugía plástica', CAST(100.00 AS Decimal(18, 2)), CAST(50.00 AS Decimal(18, 2)))
+INSERT [dbo].[Servicio] ([Id], [Nombre], [Acronimo], [Descripcion], [CostoConsulta], [CostoReconsulta]) VALUES (23, N'Medicina del Deporte', N'MD', N'Servicio de medicina del deporte', CAST(100.00 AS Decimal(18, 2)), CAST(50.00 AS Decimal(18, 2)))
+INSERT [dbo].[Servicio] ([Id], [Nombre], [Acronimo], [Descripcion], [CostoConsulta], [CostoReconsulta]) VALUES (24, N'Urgencias Pediátricas', N'UP', N'Servicio de urgencias pediátricas', CAST(100.00 AS Decimal(18, 2)), CAST(50.00 AS Decimal(18, 2)))
+INSERT [dbo].[Servicio] ([Id], [Nombre], [Acronimo], [Descripcion], [CostoConsulta], [CostoReconsulta]) VALUES (25, N'Neurocirugía', N'NC', N'Servicio de neurocirugía', CAST(100.00 AS Decimal(18, 2)), CAST(50.00 AS Decimal(18, 2)))
+INSERT [dbo].[Servicio] ([Id], [Nombre], [Acronimo], [Descripcion], [CostoConsulta], [CostoReconsulta]) VALUES (26, N'Patología', N'PA', N'Servicio de patología', CAST(100.00 AS Decimal(18, 2)), CAST(50.00 AS Decimal(18, 2)))
+INSERT [dbo].[Servicio] ([Id], [Nombre], [Acronimo], [Descripcion], [CostoConsulta], [CostoReconsulta]) VALUES (27, N'Genética Médica', N'GM', N'Servicio de genética médica', CAST(100.00 AS Decimal(18, 2)), CAST(50.00 AS Decimal(18, 2)))
+INSERT [dbo].[Servicio] ([Id], [Nombre], [Acronimo], [Descripcion], [CostoConsulta], [CostoReconsulta]) VALUES (28, N'Cuidados Paliativos', N'CP', N'Servicio de cuidados paliativos', CAST(100.00 AS Decimal(18, 2)), CAST(50.00 AS Decimal(18, 2)))
+INSERT [dbo].[Servicio] ([Id], [Nombre], [Acronimo], [Descripcion], [CostoConsulta], [CostoReconsulta]) VALUES (29, N'Salud Mental', N'SM', N'Servicio de salud mental', CAST(100.00 AS Decimal(18, 2)), CAST(50.00 AS Decimal(18, 2)))
