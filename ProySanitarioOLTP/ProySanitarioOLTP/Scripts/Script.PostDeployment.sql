@@ -14,5 +14,9 @@ Plantilla de script posterior a la implementación
 :r .\Medico.sql
 :r .\Paciente.sql
 :r .\Servicio.sql
+:r .\EstudioComplementario.sql
 :r .\HospitalServicioMedico.sql
 :r .\HistoriaClinica.sql
+
+
+

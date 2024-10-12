@@ -1,4 +1,28 @@
-﻿INSERT INTO Medico ( Nombre, ApPaterno, ApMaterno, DNI, FechaNacimiento) VALUES
+﻿
+
+--go
+
+--IF OBJECT_ID ('HospitalServicioMedico') IS NOT NULL
+--begin
+--DROP TABLE HospitalServicioMedico
+--end
+
+go
+
+create table Medico(
+Id int not null primary key identity(1,1),
+Nombre varchar(400),
+ApPaterno varchar(400),
+ApMaterno varchar(400),
+DNI varchar(400),
+FechaNacimiento date,
+);
+
+go
+
+
+
+INSERT INTO Medico ( Nombre, ApPaterno, ApMaterno, DNI, FechaNacimiento) VALUES
 ('Manuel', 'Ortiz', 'Vega', '77889900I', '1972-04-08'),
 ('Elena', 'Ruiz', 'Martínez', '88990011J', '1987-09-12'),
 ('David', 'Gil', 'Hernández', '99001122K', '1983-06-22'),

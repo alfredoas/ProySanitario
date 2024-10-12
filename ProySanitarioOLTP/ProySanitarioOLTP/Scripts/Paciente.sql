@@ -1,4 +1,30 @@
 ﻿
+--go
+
+--IF OBJECT_ID ('HospitalServicioMedico') IS NOT NULL
+--begin
+--DROP TABLE HospitalServicioMedico
+--end
+
+go
+
+
+create table Paciente(
+Id bigint not null primary key identity(1,1),
+Nombre varchar(400),
+ApPaterno varchar(400),
+ApMaterno varchar(400),
+DNI varchar(400),
+FechaNacimiento date,
+Telefono int,
+Direccion varchar(400),
+Email varchar(400),
+
+);
+
+go
+
+
 INSERT INTO Paciente (Nombre, ApPaterno, ApMaterno, DNI, FechaNacimiento, Telefono, Direccion, Email) VALUES
 ('Ana', 'Martín', 'Fernández', '11223344C', '1990-03-10', '619876543', 'Calle Sur 789', 'ana.martin@mail.com'),
 ('Carlos', 'Gómez', 'Rodríguez', '22334455D', '1985-07-20', '618765432', 'Avenida Este 321', 'carlos.gomez@mail.com'),

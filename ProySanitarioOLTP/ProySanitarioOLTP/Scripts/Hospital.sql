@@ -1,4 +1,25 @@
 ﻿
+--go
+
+--IF OBJECT_ID ('Hospital') IS NOT NULL
+--begin
+--DROP TABLE Hospital
+--end
+
+go
+
+create table Hospital(
+Id int not null primary key identity(1,1),
+Nombre varchar(400),
+Ciudad varchar(400),
+Direccion varchar(400),
+Telefono int,
+Email varchar(400),
+);
+
+go
+
+
 INSERT INTO Hospital ( Nombre, Ciudad, Direccion, Telefono, Email) VALUES
 ('Hospital Este', 'Valencia', 'Calle Larga 123', '963456789', 'este@hospital.com'),
 ('Hospital Oeste', 'Bilbao', 'Calle Estrecha 456', '944123456', 'oeste@hospital.com'),

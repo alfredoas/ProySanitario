@@ -1,4 +1,30 @@
 ﻿
+--go
+
+--IF OBJECT_ID ('EstudioComplementario') IS NOT NULL
+--begin
+--DROP TABLE EstudioComplementario
+--end
+
+go
+
+CREATE TABLE [dbo].[EstudioComplementario](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Nombre] [varchar](100) NULL,
+	[Descripcion] [varchar](100) NULL,
+	[Costo] [decimal](18, 2) NULL,
+	[TiempoEspera] [int] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+
+GO
+
+
+
 INSERT [dbo].[EstudioComplementario] ( [Nombre], [Descripcion], [Costo], [TiempoEspera]) VALUES (N'Análisis de sangre completo (hemograma)', NULL, CAST(100.00 AS Decimal(18, 2)), NULL)
 INSERT [dbo].[EstudioComplementario] ( [Nombre], [Descripcion], [Costo], [TiempoEspera]) VALUES (N'Prueba de glucosa en sangre', NULL, CAST(10.00 AS Decimal(18, 2)), NULL)
 INSERT [dbo].[EstudioComplementario] ( [Nombre], [Descripcion], [Costo], [TiempoEspera]) VALUES (N'Prueba de colesterol', NULL, CAST(20.00 AS Decimal(18, 2)), NULL)
